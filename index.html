@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercícios Fixação</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="JS/jquery-3.7.0.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Exercício 1</h1>
+        <!-- <script> window.alert("Olá mundo!") </script> -->
+
+        <h1>Exercício 2 (interagindo com o botão)</h1>
+        <button id="exer2">Clique em mim!</button>
+
+        <h1>Exercício 3 (Trabalhando com dados v1.0)</h1>
+        <button id="exer3">Clique para começar</button>
+
+        <h1>Exercício 4 (Trabalhando com dados v2.0)</h1>
+        <button id="exer4">Clique para começar</button>
+        <p id="length4"></p>
+
+        <h1>Exercício 5 (Trabalhando com números)</h1>
+        <button id="exer5">Clique para calcular</button>
+        <p id="result5"></p>
+
+        <h1>Exercício 6 (Somando dois números)</h1>
+        <button id="exer6">Iniciar soma</button>
+        <p id="result6"></p>
+
+        <h1>Exercício 7 (Somando dois números)</h1>
+        <button id="exer7">Calcular média</button>
+        <p id="name7">O resultado vai aparecer aqui...</p>
+        <p id="grades7"></p>
+        <p id="average7"></p>
+
+        <h1>Exercício 8 (Vários cálculos em JS)</h1>
+        <button id="exer8">Clique para calcular</button>
+        <p id="result8">O resultado vai aparecer aqui...</p>
+   
+        <h1>Exercício 9 (Contador de cliques)</h1>
+        <button id="exer9">Clique em mim</button>
+        <button id="exer9zero">Zerar o Contador</button>
+        <p id="clicks">O contador está com <grif>0</grif> cliques.</p>
+
+        <h1>Exercício 10 (Registrar suas ações)</h1>
+        <button id="action1">Ação 1</button>
+        <button id="action2">Ação 2</button>
+        <button id="action3">Ação 3</button>
+        <button id="action4">Ação 4</button>
+        <p id="result10">Aqui vou registrar suas ações com os botões acima.</p>
+
+        <h1>Exercício 11 (Média do aluno v2.0)</h1>
+        <button id="exer11">Calcular média</button>
+        <p id="result11">O resultado vai aparecer aqui...</p>
+
+        <h1>Exercício 12 (É par ou é ímpar?)</h1>
+        <button id="exer12">Clique para iniciar</button>
+        <p id="result12">O resultado vai aparecer aqui...</p>
+
+        <h1>Exercício 13 (Maior valor)</h1>
+        <button id="exer13">Clique para começar</button>
+        <p id="result13">O resultado vai aparecer aqui...</p>
+        
+        <h1>Exercício 14 (Interagindo com o sistema)</h1>
+        <button id="exer14">Clique em mim</button>
+        <p id="result14">Aqui vai aparecer algo...</p>
+
+        <h1>Exercício 15 (Analisando data e hora do Sistema)</h1>
+        <button id="exer15">Iniciar Análise</button>
+        <p id="result15">Aqui vai aparecer algo...</p>
+
+        <h1>Exercício 16 (Calculando a idade)</h1>
+        <button id="exer16">Iniciar</button>
+        <p id="result16">Aqui vai aparecer algo...</p>
+
+        <h1>Exercício 17 (Gerador de números)</h1>
+        <button id="exer17click">Clique em mim</button>
+        <button id="exer17clear">Limpar</button>
+        <p id="result17">Cada vez que você apertar o botão acima, eu penso em um número entre 1 e 100.</p>
+
+        <p id="numberRandom"></p>
+        <h1>Exercício 18 (Tente adivinhar meu número)</h1>
+        <button id="exer18">Tentar adivinhar</button>
+        <p id="result18">Já pensei em um valor entre 1 e 100...</p>
+
+        <h1>Exercício 19 (Múltiplas ações)</h1>
+        <button id="exer19">Clique para iniciar</button>
+        <p id="result19">Clique no botão acima para começar.</p>
+
+        <h1>Exercício 20 (Descubra a estação do ano)</h1>
+        <button id="exer20">Informe o mês aqui</button>
+        <p id="result20">Clique no botão acima para informar o mês.</p>
+
+        <h1>Exercício 21 (Contando de 1 a 10)</h1>
+        <button id="exer21">Contador de 1 a 10</button>
+        <p id="result21">Aperte o botão acima para contar.</p>
+
+        <h1>Exercício 22 (Contando de 1 a 10 (marcando os pares))</h1>
+        <button id="exer22">Contar de 1 a 10</button>
+        <p id="result22">Aperte o botão acima para contar.</p>
+
+        <h1>Exercício 23 (Contando de 1 a 10 (mostrando só os pares))</h1>
+        <button id="exer23">Contar de 1 a 10</button>
+        <p id="result23">Aperte o botão acima para contar.</p>
+
+        <h1>Exercício 24 (Contagem regressiva de 10 a 1)</h1>
+        <button id="exer24">Contar de 1 a 10</button>
+        <p id="result24">Aperte o botão acima para contar.</p>
+
+        <h1>Exercício 25 (Contando de 0 até um número positivo qualquer)</h1>
+        <p>Escolha o limite final para a contagem a partir do 0 (digite apenas números postivos)</p>
+        <label for="fnum">Valor final: </label>
+        <input type="number" id="fnum" placeholder=" Apenas positivos">
+        <input type="submit" class="buttonCount" value="Contar" id="button25">
+        <p id="result25">Preencha os dados acima e aperte o botão.</p>
+
+        <h1>Exercício 26 (Contagem "inteligente")</h1>
+        <p>Use qualquer valor nas caixas, simule contagens crescentes e regressivas. Use também valores negativos.</p>
+        <p>
+            <label for="fnum">Valor inicial: </label>
+            <input type="number" id="valueInitial" placeholder=" Início da contagem">
+        </p>
+        <p>
+            <label for="fnum">Valor final: </label>
+            <input type="number" id="valueFinal" placeholder=" Fim da contagem">
+        </p>
+        <input type="submit" class="buttonCount" value="Contar" id="button26">
+        <p id="result26">Preencha os dados acima e aperte o botão.</p>
+
+        <h1>Exercício 27 (Super Tabuada)</h1>
+        <p>Escreva um número na caixa a seguir e te mostrarei a tabuada dele.</p>
+        <label for="fnum">Número: </label>
+        <input type="number" id="number27" placeholder=" Número">
+        <input type="submit" class="buttonCount" value="Tabuada" id="button27">
+        <p id="result27">Preencha os dados acima e aperte o botão.</p>
+
+        <h1>Exercício 28 (Cálculo de Fatorial)</h1>
+        <p>Escreva um número (entre 1 e 21) na caixa a seguir e te mostrarei o Fatorial dele.</p>
+        <label for="fnum">Número: </label>
+        <input type="number" name="num" id="number28" max="21" min="1" placeholder=" Número">
+        <input type="submit" class="buttonCount" value="Fatorial" id="button28">
+        <p id="result28">Preencha os dados acima e aperte o botão.</p>
+
+        <script src="JS/scripts.js"></script>
+    </body>
+    
+</html>
